@@ -34,7 +34,7 @@ def get_audio_files():
 
 if __name__ == "__main__":
     song_data = get_audio_files()
-    with open("music_list.json", "w", encoding="utf-8") as f:
+    with open("music_list001.json", "w", encoding="utf-8") as f:
         json.dump(song_data, f, indent=2, ensure_ascii=False)
-    print(f"✅ Generado music_list.json con {len(song_data)} canciones.")
+    print(f"✅ Generado music_list001.json con {len(song_data)} canciones.")
 
