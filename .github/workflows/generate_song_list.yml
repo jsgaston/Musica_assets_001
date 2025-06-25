@@ -7,12 +7,6 @@ on:
     paths:
       - '**.m4a'
       - '**.mp3'
-      - 'generate_song_list.py'
-      - '.github/workflows/generate_song_list.yml'
-
-    paths:
-      - '**.m4a'
-      - '**.mp3'
       - '.github/workflows/generate_song_list.yml'
       - 'generate_song_list.py'
 
